@@ -105,7 +105,7 @@ public class UtilitiesTest {
         int esperado = 0;
         String texto = null;
         int resul;
-        resul = Utilities.contarCoincidencias("MA", texto);
+        resul = Utilities.contarCoincidencias("Bienvenido", texto);
         Assert.assertEquals(esperado,resul);
     }
     
